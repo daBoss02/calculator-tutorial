@@ -1,4 +1,4 @@
-![Calculator](assets/glowLaptop.jpg "Calculator")
+![Calculator](assets/calculator.jpg "Calculator")
 
 ## Tutorial
 
