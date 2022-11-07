@@ -104,7 +104,7 @@ There will always be a better way to do something, and this calculator is not
 perfect. But, while you cannot divide by 0, it is functional in every other aspect.
 
 
-Click [here](https://daboss02.github.io/calculator-tutorial/) to play
+Click [here](https://daboss02.github.io/calculator-tutorial/) to use.
 
 ## References
 eval(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
