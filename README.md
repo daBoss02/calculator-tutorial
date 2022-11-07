@@ -29,8 +29,18 @@ This is a block of JavaScript that returns the numbers when each button is click
   }))
 
 ```
+I created a function for each number button on the calculator, as well as the
+'clear' button. If the inner HTML of the button is 'Clear' both the input and
+the output will be cleared, as well as num, where I have the current number
+stored. Outstring is the ouput of the calculation and will constantly be updating
+to account for what you type in. To do this I used 'eval()', this will execute
+everything in a string as a block of code.
+
 
 ## Return an operator
+Operators look different in math class than they do on the keyboard. because of
+this I needed to create a function to select the right operators, while still
+keeping the site user friendly.
 ```JavaScript
 operators.forEach(element => onEvent('click', element, function() {
   outside: if (canOp) {
@@ -64,6 +74,8 @@ operators.forEach(element => onEvent('click', element, function() {
   }))
 
 ```
+When an operator is clicked it will trigger the switch case
+which will find the correct operator and append it to the input string
 
 ## Returning the Value
   This is how I return the answer when the equals sign is clicked
@@ -85,3 +97,6 @@ onEvent('click', equals, function() {
   })
 
 ```
+
+## References
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
