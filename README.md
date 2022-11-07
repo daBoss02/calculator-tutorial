@@ -97,6 +97,8 @@ onEvent('click', equals, function() {
   })
 
 ```
+While the answer is always updated it is still important to have an equals button.
+This button will make the answer the single line of text, making it much more readable for the user.
 
 ## References
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
+eval(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
