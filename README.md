@@ -108,4 +108,5 @@ Click [here](https://daboss02.github.io/calculator-tutorial/) to use.
 
 ## References
 eval(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
+
 innerText: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText
