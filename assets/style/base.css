@@ -1,0 +1,94 @@
+@import './reset.css';
+
+:root {
+--app-dark-bg: #1a1d28;
+--app-light-bg: #f0f2f4;
+--app-red: #ff3c57;
+--app-green: #33ab4e;
+--app-purple: #833cff;
+--app-purple-hover: #5225a0;
+--app-orange: #ff833c;
+--app-orange-hover: #cc6123;
+--app-blue: #3c57ff;
+--app-blue-hover: #364ee6;
+--app-gray: #3b3f51;
+--app-gray-hover: #353848;
+
+--app-header-height: 56px;
+
+--app-border-radius: 4px;
+}
+
+.body {
+  background-color:var(--app-dark-bg);
+}
+
+.container {
+  width: min(100% - 30px, 1280px);
+  margin-inline: auto;
+}
+
+p, button {
+  color: #fff;
+}
+
+* {
+  transition: background-color 0.1s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+.center {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.main {
+  width: 220px;
+}
+
+.screen {
+  max-width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background-color: #292d3f;
+  border-radius: var(--app-border-radius);
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 14px;
+  padding: 20px 20px;
+}
+.screen p {
+  white-space: nowrap;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn, .operator, .equals {
+  height: 40px;
+  background-color: var(--app-gray);
+  border-radius: var(--app-border-radius);
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: var(--app-gray-hover);
+}
+.operator, .equals {
+  background-color: var(--app-orange);
+}
+.operator:hover, .equals:hover {
+  background-color: var(--app-orange-hover);
+}
+.one {
+  width: calc(25% - (30px / 4));
+}
+.two {
+  width: calc(50% - (10px / 2));
+}
+.three {
+  width: calc(75% - (10px / 4));
+}
