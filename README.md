@@ -1,4 +1,4 @@
-![Calculator](assets/calculator.jpg "Calculator")
+![Calculator](assets/img/calculator.jpg "Calculator")
 
 ## Tutorial
 
